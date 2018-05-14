@@ -12,6 +12,13 @@ class m_model extends CI_Model {
         return $query->result();
     }
     
+    public function get_chart()
+    {
+        //$query = $this->db->get('d_managment', 10);
+        $query = $this->db->query('SELECT *from base' );
+        return $query->result();
+    }
+    
     public function insert_entry()
     {
         $this->title    = $_POST['title']; // please read the below note

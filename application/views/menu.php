@@ -1,6 +1,7 @@
 <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
+      <img class="d-block img-fluid" src="<?php echo base_url(); ?>wu.png" alt="Girl in a jacket" style="width:50 px;height:70px;">&nbsp;&nbsp;&nbsp;
         	<a class="navbar-brand" href="#">ส่วนกิจการนักศึกษา</a>
         		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           		<span class="navbar-toggler-icon"></span>
@@ -16,8 +17,10 @@
                             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
                             <input id="email" type="email" class="form-control" name="email" value="" placeholder="รหัสนักศึกษา">  
                              <input id="password" type="password" class="form-control" name="password" value="" placeholder="รหัสผ่าน">
-                             <button type="submit" class="btn btn-primary">เข้าสู่ระบบ</button>                                         
-                        </div>            
+                             <button type="submit" class="btn btn-primary">เข้าสู่ระบบ</button></a>
+                                               
+                        </div> 
+                                 
         	</li>
       			</ul>
         		</div>

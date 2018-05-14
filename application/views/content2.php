@@ -1,5 +1,4 @@
-
-        <!-- /.col-lg-3 -->
+    <!-- /.col-lg-3 -->
 
         <div class="col-lg-30">
 
@@ -29,9 +28,52 @@
       		วันที่    &nbsp;<input type="date"><br><br>
       		
     	<div>เลือกฐานความผิด</div>
-    	<textarea rows = "1" cols = "80" name = "description"></textarea><br>
-      	<button type="submit">เพิ่ม</button>&nbsp;&nbsp;<button type="submit">ลบ</button>
-      	<br><br><br><form >
+       			<script type="text/javascript">
+
+				//<![CDATA[
+
+				function addbox(){
+
+				var b=document.getElementById('inputboxes');
+	
+				var el1=document.createElement("br");
+
+				var el2=document.createElement("input");
+
+				el2.name='f1[]';
+
+				el2.type='text';
+
+				el2.value='';
+
+				b.appendChild(el1);
+
+				b.appendChild(el2);
+
+									}
+
+				//]]>
+
+				</script>
+
+
+				<form method="post" action="?" id="box">
+
+					<div id="inputboxes">
+
+						<?php foreach(array(1) as $n): ?>
+
+						<br /><input type="text" class="form-control" rows="5" name="f1[]" value="" /> 
+						  
+
+						<?php endforeach; ?> 
+
+					</div>
+
+				<input type="submit" name="$addbox" value="เพิ่ม&gt;&gt;" onclick="addbox();return false;" />
+
+				<input type="reset" name="add" value="ยกเลิก" /> 
+
       	      			<div class="input-group">
                             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

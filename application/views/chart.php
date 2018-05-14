@@ -1,13 +1,16 @@
-
+<br>
+<br>
 <div id="container" style="min-width: 750px; height: 600px; max-width: 800px; margin: 0 auto"></div>
 
 <head>
+
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/modules/exporting.js"></script>
 <script src="https://code.highcharts.com/modules/export-data.js"></script>
 </head>
 
 <script>
+
 	Highcharts.chart('container', {
   chart: {
     plotBackgroundColor: null,
@@ -16,8 +19,7 @@
     type: 'pie'
   },
   title: {
-    text: 'ข้อมูลฐานความผิด'
-  },
+    text: 'ข้อมูลสรุปฐานความผิด' },
   tooltip: {
     pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
   },
@@ -37,12 +39,20 @@
   series: [{
     name: 'Brands',
     colorByPoint: true,
-    data: [{
-      name: 'สูบบุหรี่',
+    data: [
+        <?php foreach($chart_res as $row){?>
+        {
+            name: '<?php echo $row->base_name; ?>',
+            y: <?php echo $row->percent ?>,
+            		 sliced: true,
+            	      selected: true
+      /*name: 'สูบบุหรี่',
       y: 61.41,
       sliced: true,
-      selected: true
-    }, {
+      selected: true*/
+    },
+    <?php } ?>
+    /* {
       name: 'ทะเลาะวิวาท',
       y: 11.84
     }, {
@@ -66,7 +76,8 @@
     }, {
       name: 'ผิด พรบ คอมพิวเตอร์',
       y: 2.61
-    }]
+    }*/]
   }]
 });
 </script>
+   

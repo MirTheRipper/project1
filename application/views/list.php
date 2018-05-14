@@ -3,16 +3,21 @@
 	<center><section>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-6">
+				<div class="col-lg-30">
 					<div class="card">
-						<dis class="card-header">
-						<h4>d_managment</h4>
+						
+						<dis class="card-header"><br><center>
+						<br>
+						<br>
+						<br>
+						<h4>รายงานสรุปการกระทำความผิดตามหลักสูตร</h4>
 						</dis>
 						<div class="card-body">
 							<div class="table-responsive">
 							<table class="table table-striped table-sm">
 							<thead>
 							<tr>
+							
 								<th>#</th>
 								 	<th>ลำดับ</th>
         							<th>รหัส</th>
@@ -31,6 +36,8 @@
 				             		 <td><?php echo $row->Place; ?></td>
 				              		 <td><?php echo $row->Description; ?></td>
 				               		 <td><?php echo $row->Date_w; ?></td>
+				                     <td><?php echo $row->score; ?></td>
+				               		 
 				               		</tr>
 				               		<?php }?>
 				               		</tbody>
@@ -43,5 +50,12 @@
 				           </div>
 				          </section>
 				          </center> 
-				               		 
+				          <br>
+				          <br>
+				          <br>
+				          <br>
+				          <br>
+				          <br>
+				          <br>
+				              		 
 				               

@@ -32,12 +32,13 @@ class Home extends CI_Controller {
 	    $this->load->view('head');
 	    $this->load->view('menu');
 	    $this->load->view('content');
-	    $this->load->view('foot');
+	    $this->load->view('foot2');
 	}
 	
 	public function test2()
 	{
 	    $this->load->view('head2');
+	   
 	    $this->load->view('menuleft');
 	    $this->load->view('content2');
 	    $this->load->view('foot');    
@@ -51,14 +52,20 @@ class Home extends CI_Controller {
         $data['m_model_res']=$res;
         
         $this->load->view('head2');
+        $this->load->view('menuleft');
         $this->load->view('list',$data);
         $this->load->view('foot');             
     }
     public function chart()
     {
+        $this->load->model('m_model');
+        $res= $this->m_model->get_chart();
+        $data['chart_res']=$res;
+        
         $this->load->view('head2');
         $this->load->view('menuleft');
-        $this->load->view('chart');
+        $this->load->view('chart', $data);
         $this->load->view('foot');   
     }
+    
 }

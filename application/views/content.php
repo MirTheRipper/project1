@@ -1,8 +1,11 @@
 <!-- Page Content -->
+     
     <div class="container"><br><br>
-
+    <marquee direction="left">ยินดีต้อนรับเข้าสู่เว็บไซต์ส่วนกิจการนักศึกษา</marquee>
       <div class="row">
         <div class="col-md-2">
+        
+          
           <h1 class="my-4"></h1><a class="navbar-brand" href="#" ><font color= 'black'>ส่วนกิจการนักศึกษา</a>
           <font face='tahoma'><div class="list-group">
             <a href="#" class="list-group-item">หน้าแรก</a>
@@ -12,7 +15,7 @@
         </div>
         <!-- /.col-lg-3 -->
 
-        <div class="col-lg-9">
+        <div class="col-lg-15">
 
           <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -22,13 +25,13 @@
             </ol>
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
-                <img class="d-block img-fluid" src="<?php echo base_url(); ?>11.jpg" alt="Girl in a jacket" style="width:900px;height:350px;">
+                <img class="d-block img-fluid" src="<?php echo base_url(); ?>11.jpg" alt="Girl in a jacket" style="width:900px;height:500px;">
               </div>
               <div class="carousel-item">
-                <img class="d-block img-fluid" src="<?php echo base_url(); ?>22.jpg" alt="Girl in a jacket" style="width:900px;height:350px;">
+                <img class="d-block img-fluid" src="<?php echo base_url(); ?>222.jpg" alt="Girl in a jacket" style="width:900px;height:500px;">
               </div>
               <div class="carousel-item">
-                <img class="d-block img-fluid" src="<?php echo base_url(); ?>33.jpg" alt="Girl in a jacket" style="width:900px;height:350px;">
+                <img class="d-block img-fluid" src="<?php echo base_url(); ?>333.jpg" alt="Girl in a jacket" style="width:900px;height:500px;">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -40,14 +43,20 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-
+          
           </div>
           <!-- /.row -->
 
         </div>
         <!-- /.col-lg-9 -->
 
-      </div><br><br><br><br><br><br><br><br><br><br>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
       <!-- /.row -->
     <!-- /.container -->
     
