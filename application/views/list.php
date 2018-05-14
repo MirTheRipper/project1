@@ -1,7 +1,6 @@
 <?php
 ?>
-
-	<section>
+	<center><section>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-6">
@@ -15,11 +14,12 @@
 							<thead>
 							<tr>
 								<th>#</th>
-								<th>Wrongdoer_ID</th>
-								<th>Student_ID</th>
-								<th>Place</th>
-								<th>Description</th>
-								<th>Date_w</th>
+								 	<th>ลำดับ</th>
+        							<th>รหัส</th>
+        							<th>หมวดความผิด</th>
+        							<th>ฐานความผิด</th>
+        							<th>วันที่</th>
+        							<th>คะแนนที่ถูกตัด</th>
 								</tr>
 								</thead>
 								<tbody>
@@ -41,8 +41,7 @@
 				             </div>
 				            </div>
 				           </div>
-				               		
-				               		 
-				          </section>	 
+				          </section>
+				          </center> 
 				               		 
 				               

@@ -38,9 +38,9 @@ class Home extends CI_Controller {
 	public function test2()
 	{
 	    $this->load->view('head2');
-	    $this->load->view('menu2');
+	    $this->load->view('menuleft');
 	    $this->load->view('content2');
-	    $this->load->view('foot2');    
+	    $this->load->view('foot');    
 	}
 
 
@@ -52,8 +52,13 @@ class Home extends CI_Controller {
         
         $this->load->view('head2');
         $this->load->view('list',$data);
-        $this->load->view('foot');
-        
-        
+        $this->load->view('foot');             
+    }
+    public function chart()
+    {
+        $this->load->view('head2');
+        $this->load->view('menuleft');
+        $this->load->view('chart');
+        $this->load->view('foot');   
     }
 }

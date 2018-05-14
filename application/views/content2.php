@@ -1,21 +1,4 @@
-<!-- Page Content -->
-    <div class="container">
 
-      <div class="row">
-
-        <div class="col-lg-3">
-
-         <h1 class="my-4"></h1><a class="navbar-brand" href="#" ><font color= 'black'>ส่วนกิจการนักศึกษา</a>
-          <div class="list-group">
-            <a href="#" class="list-group-item">จัดการกระทำความผิด</a>
-            <a href="#" class="list-group-item">- บันทึกการะทำความผิด</a>
-            <a href="#" class="list-group-item">- แก้ไขรายการกระทำความผิด</a>
-            <a href="#" class="list-group-item">รายงาน</a>
-            <a href="#" class="list-group-item">- รายงานสรุปตามหลักสูตร</a>
-            <a href="#" class="list-group-item">- รายงานสรุปตามสำนักวิชา</a>
-          </div>
-
-        </div>
         <!-- /.col-lg-3 -->
 
         <div class="col-lg-30">
@@ -49,3 +32,17 @@
     	<textarea rows = "1" cols = "80" name = "description"></textarea><br>
       	<button type="submit">เพิ่ม</button>&nbsp;&nbsp;<button type="submit">ลบ</button>
       	<br><br><br><form >
+      	      			<div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             <button type="submit" class="btn btn-primary">บันทึก</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             <button type="submit" class="btn btn-primary">ยกเลิก</button>                                    
+      		    </div
+
+  </select>
+ 
+</form> 
+          
+
+  </body>
+</html>
